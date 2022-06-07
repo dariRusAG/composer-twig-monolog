@@ -1,0 +1,27 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Чатик</title>
+</head>
+<style>
+    body { font-family: 'Times New Roman', sans-serif; }
+    button:hover { background: deepskyblue; }
+    html {
+        background: #e3c963;
+        box-shadow: 0 -200px 100px -120px #d94d69 inset;
+        animation: background 6s infinite alternate;
+    }
+    @keyframes background {
+        50% { background: skyblue;
+            box-shadow: 0 -200px 100px -100px #b3d56e inset;
+        }}
+</style>
+<div>
+    <form method="get" action="/">
+        <label>Введите свой логин и пароль, чтобы пообщаться с друзьми.</label></p>
+        <input size="28" name="login" placeholder="login"/>
+        <input size="28" name="password" placeholder="password"/>
+        <button type="submit" size="28">АУТЕНТИФИКАЦИЯ</button>
+    </form>
+</div>
+</html>

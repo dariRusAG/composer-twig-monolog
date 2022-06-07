@@ -1,0 +1,12 @@
+{
+    "name": "dasha/composer1",
+    "autoload": {
+        "psr-4": {
+            "Dasha\\Composer1\\": "src/"
+        }
+    },
+    "require": {
+        "twig/twig": "^3.3",
+        "monolog/monolog": "^2.6"
+    }
+}
