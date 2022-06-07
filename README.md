@@ -2,9 +2,9 @@
 ## Дополнить чат использованием пакетного менеджера composer и библиотек twig, monolog.
 
 ### Теоретическая часть:
-https://getcomposer.org/doc/00-intro.md
-https://twig.symfony.com/
-https://github.com/Seldaek/monolog 
+- https://getcomposer.org/doc/00-intro.md
+- https://twig.symfony.com/
+- https://github.com/Seldaek/monolog 
 
 *Задача*
 Реализовать простое приложение PHP с использованием пакетного менеджера composer и библиотек twig, monolog.
@@ -31,9 +31,9 @@ HTML-файл был разбит в папке templates на 3 шаблона:
 #### Реализация Monolog:
 Записывает в файл logs_archive.log ошибки и информацию о работе пользователя с сайтом.
 Выделены следующая информация:
-* 'New message' - новое сообщение. Данные хранят имя пользователя, и его сообщение;
-* 'Chat was cleared' - очистка истории сообщений;
-* 'Non-existent user or incorrect password entered' - неверное имя пользователя или пароль. Ошибка;
+* `New message` - новое сообщение. Данные хранят имя пользователя, и его сообщение;
+* `Chat was cleared` - очистка истории сообщений;
+* `Non-existent user or incorrect password entered` - неверное имя пользователя или пароль. Ошибка;
 
 #### Реализация Composer:
 Файл composer.json, где указано в какой папке собирать все файлы и какие библиотеки используются.
