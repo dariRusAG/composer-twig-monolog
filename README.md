@@ -41,3 +41,6 @@ HTML-файл был разбит в папке templates на 3 шаблона:
 ### Для авторизации:
 1. dasha - любой набор символов
 2. admin - qwerty
+
+#### Обновление composer
+`composer dump-autoload`
